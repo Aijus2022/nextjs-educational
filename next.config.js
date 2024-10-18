@@ -1,11 +1,13 @@
+/** @type {import('next').NextConfig} */
 const nextConfig = {
-  basePath: '/nextjs-educational',
-  assetPrefix: '/nextjs-educational/',
-  trailingSlash: true,
-  output: 'export',
+  output: 'export', 
+  images: {
+    unoptimized: true, 
+  },
 };
 
 module.exports = nextConfig;
+
 
 
 
