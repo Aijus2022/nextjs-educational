@@ -1,8 +1,8 @@
 /** @type {import('next').NextConfig} */
-const nextConfig = {}
-
-module.exports = {
+const nextConfig = {
   basePath: '/nextjs-educational',
   assetPrefix: '/nextjs-educational/',
 }
+
+export default nextConfig;
 
