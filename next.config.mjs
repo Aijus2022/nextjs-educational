@@ -1,10 +1,9 @@
-/** @type {import('next').NextConfig} */
 const nextConfig = {
   basePath: '/nextjs-educational',
   assetPrefix: '/nextjs-educational/',
+  trailingSlash: true,  
   output: 'export',
 };
-
-export default nextConfig;
+module.exports = nextConfig;
 
 
