@@ -1,0 +1,88 @@
+/* Global styles for the app */
+
+html, body {
+  margin: 0;
+  padding: 0;
+  font-family: 'Arial', sans-serif;
+  background-color: #f7f7f7;
+  color: #333;
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+}
+
+.header {
+  background-color: #0070f3;
+  padding: 20px;
+  color: white;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.logo {
+  font-size: 1.5rem;
+  font-weight: bold;
+}
+
+.nav {
+  display: flex;
+}
+
+.navList {
+  display: flex;
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+.navItem {
+  margin-right: 20px;
+}
+
+.navLink {
+  color: white;
+  text-decoration: none;
+  font-weight: 500;
+}
+
+.navLink:hover {
+  text-decoration: underline;
+}
+
+.main {
+  flex: 1;
+  padding: 40px;
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.footer {
+  background-color: #0070f3;
+  color: white;
+  text-align: center;
+  padding: 10px 0;
+  font-size: 0.9rem;
+}
+/* Preformatted text (pre) and code blocks */
+pre, code {
+  font-family: 'Courier New', Courier, monospace;
+  background-color: #282c34;
+  color: #61dafb;
+  padding: 20px;
+  border-radius: 5px;
+  overflow-x: auto;
+}
+
+/* Increase the font size for pre and code */
+pre {
+  font-size: 1.1rem; /* Increase this value for a bigger font */
+  line-height: 1.5; /* Adjust line height for readability */
+}
+
+code {
+  font-size: 1.1rem; /* Ensure code inside pre is also bigger */
+}

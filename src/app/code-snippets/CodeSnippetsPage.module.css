@@ -1,0 +1,29 @@
+/* Preformatted text (pre) and code blocks */
+pre, code {
+    font-family: 'Courier New', Courier, monospace;
+    background: linear-gradient(
+      to right, 
+      rgba(40, 44, 52, 0.8), 
+      rgba(40, 44, 52, 1) 10%, 
+      rgba(40, 44, 52, 1) 90%, 
+      rgba(40, 44, 52, 0.8)
+    ); /* Fades on left and right sides */
+    color: #61dafb;
+    padding: 20px;
+    border-radius: 5px;
+    overflow-x: auto;
+    font-size: 1.1rem;
+    line-height: 1.5;
+    position: relative;
+  }
+  
+  /* Additional padding to avoid hidden text at the edges */
+  pre {
+    padding: 20px 30px;
+  }
+  
+  /* Ensure the content inside code is also bigger */
+  code {
+    font-size: 1.1rem;
+  }
+  
